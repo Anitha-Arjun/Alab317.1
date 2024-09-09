@@ -97,14 +97,14 @@ class NCycle<T> {
   }
 }
 
-const testCycle1 = new NCycle<number>(1, 2, 3);
-testCycle1.print();
+// const testCycle1 = new NCycle<number>(1, 2, 3);
+// testCycle1.print();
 
-const testCycle2 = new NCycle<string>("This", "That", 4);
-testCycle2.print();
+// const testCycle2 = new NCycle<string>("Ford", "F150", 4);
+// testCycle2.print();
 
-const testCycle3 = new NCycle<string>("Make", "Model Y", 4);
-testCycle3.print(4);
+// const testCycle3 = new NCycle<string>("Tesla", "Model Y", 4);
+// testCycle3.print(4);
 
 const makes4 = ["Volkswagon", "Tesla", "Audi"];
 const models4 = ["Passat", "Model X", "A4"];
